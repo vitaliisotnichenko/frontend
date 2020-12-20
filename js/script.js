@@ -6,9 +6,16 @@ const leftBorderWidth = 1;
 number = 10;
 console.log(number);
 
+// Object
 const obj= {
-    a: 50
+    name: "John",
+    age: 25,
+    isMarried: false
 };
 
-obj.a = 10;
-console.log(obj);
+console.log(obj.name);
+console.log(obj["age"]);
+
+//Array
+let arr = ["plum.png", "orange.jpg", "apple.bnp"];
+console.log(arr[1]);
