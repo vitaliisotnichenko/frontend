@@ -24,6 +24,22 @@ console.log(arr[1]);
 
 const answers = [];
 
-answers[0] = prompt("What's your name", "");
-answers[1] = prompt("What's your surname", "");
-answers[2] = prompt("What's your age", "");
+// answers[0] = prompt("What's your name", "");
+// answers[1] = prompt("What's your surname", "");
+// answers[2] = prompt("What's your age", "");
+
+//Operators
+let incr = 10,
+    decr = 10;
+
+incr++;
+decr--;
+console.log(incr);
+console.log(decr);
+
+++incr;
+--decr;
+console.log(incr);
+console.log(decr);
+
+
