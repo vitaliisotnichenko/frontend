@@ -3,8 +3,8 @@
 const arr = [1, 33, 24 , 66, 8];
 
 //remove the last element from the array
-// arr.pop();
-// console.log(arr);
+arr.pop();
+console.log(arr);
 
 //Add element to the end of the array
 arr.push(10);
@@ -28,15 +28,15 @@ arr.forEach(function (item, i, arr) {
 
 //Split
 
-// const str = prompt("", "");
-// const products = str.split(', ');
-// console.log(products);
+const str = prompt("", "");
+const products = str.split(', ');
+console.log(products);
 
 //Join
-// console.log(products.join('; '));
+console.log(products.join('; '));
 
 //Sort
-// products.sort();
+products.sort();
 
 arr.sort(compareNum);
 function compareNum(a, b) {
