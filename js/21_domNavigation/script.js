@@ -1,0 +1,35 @@
+"use strict";
+
+console.log(document.body);
+console.log(document.documentElement);
+console.log(document.body.childNodes);
+console.log(document.body.firstChild);
+console.log(document.body.lastChild);
+
+
+console.log(document.querySelector('#current').parentNode);
+console.log(document.querySelector('#current').parentNode.parentNode);
+
+//get html attribute
+console.log(document.querySelector('[data-current="3"]'));
+
+//get next element
+console.log(document.querySelector('[data-current="3"]').nextSibling);
+
+//get previous element
+console.log(document.querySelector('[data-current="3"]').previousSibling);
+
+//get next element sibling
+console.log(document.querySelector('[data-current="3"]').nextElementSibling);
+
+//get parent element
+console.log(document.querySelector('[data-current="3"]').parentElement);
+
+
+//get only element nodes
+for (let node of document.body.childNodes) {
+    if (node.nodeName == '#text') {
+        continue;
+    }
+    console.log(node);
+}
