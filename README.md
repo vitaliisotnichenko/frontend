@@ -1,2 +1,2 @@
 # frontend
-repo for frontend tasks
+repo for JS taks
