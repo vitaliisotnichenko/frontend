@@ -1,2 +1,2 @@
 # frontend
-repo for JS taks
+repo for frontend - JS part 
